@@ -49,14 +49,28 @@ Problems based on greedy algorithms
 - Create two variables:
 	- `platformsNeeded` - to store the current no. of platforms in use
 	-  `maxPlatforms` - to store the maximum platforms required for the entire day
-- Compare the arrival and departure time
-- 
+- Compare the arrival and departure time, and keep updating the above two variables
+- Return maxPlatforms
 - Time Complexity: O(N*logN) <= `O(2N*logN) + O(2N)` | Space Complexity: O(1)
 
 
 ---
 
+
 ### Job Sequencing Problem
 
 - Given: Job Id, Deadline, Profit
-- 
+- Return max jobs done with total max profit
+
+
+#### Greedy solution
+
+- Sort jobs with respect to profit in decreasing order
+- Use an array of size m, (where m is the maximum deadline from given data) to store jobs with max profit
+- Take the jobs according to max profit, and insert job id in this array at the index = deadline or smaller index (i.e, insert at a free slot from index <= deadline)
+- Return the total jobs done and max profit
+- Time Complexity: O(N*logN) <= `O(2N*logN) + O(N) + O(N)` | Space Complexity: O(M)
+
+
+---
+
