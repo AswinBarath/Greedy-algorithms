@@ -31,3 +31,28 @@ Problems based on greedy algorithms
 
 
 ---
+
+
+### Minimum Platforms
+
+- Given: Arrival time in array and departure time in array 
+- To return: 
+- Conditions:
+	- Same platform can not be used for both departure of a train and arrival of another train. 
+- Ask the Interviewer: Is starting time of the trains sorted or not?
+- Possible Answer: No, it's not sorted
+
+#### Greedy solution
+
+- Sort the Arrival time and departure time arrays
+- (That is, sorting the timings for the entire day in the station)
+- Create two variables:
+	- `platformsNeeded` - to store the current no. of platforms in use
+	-  `maxPlatforms` - to store the maximum platforms required for the entire day
+- Compare the arrival and departure time
+- 
+- Time Complexity: O(N*logN) <= `O(2N*logN) + O(2N)` | Space Complexity: O(1)
+
+
+---
+
