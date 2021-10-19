@@ -56,3 +56,7 @@ Problems based on greedy algorithms
 
 ---
 
+### Job Sequencing Problem
+
+- Given: Job Id, Deadline, Profit
+- 
