@@ -62,14 +62,29 @@ Problems based on greedy algorithms
 - Given: Job Id, Deadline, Profit
 - Return max jobs done with total max profit
 
-
-#### Greedy solution
+#### Greedy Solution
 
 - Sort jobs with respect to profit in decreasing order
 - Use an array of size m, (where m is the maximum deadline from given data) to store jobs with max profit
 - Take the jobs according to max profit, and insert job id in this array at the index = deadline or smaller index (i.e, insert at a free slot from index <= deadline)
 - Return the total jobs done and max profit
 - Time Complexity: O(N*logN) <= `O(2N*logN) + O(N) + O(N)` | Space Complexity: O(M)
+
+
+---
+
+### Minimum Coins
+
+- Given: Array of denominations of coins and a Value
+- To return: Minimum no. of coins to result the Value
+
+#### Greedy Solution
+
+- Start from the end of the array of denominations and compare with value
+	- If, the denomination is greater, skip it and decrement
+	- Else, save denomination, subtract the value and check this denomination again
+- Time Complexity: O(V) (Where V is the no. of denominations used for given value) 
+- Space Complexity: O(1)
 
 
 ---
