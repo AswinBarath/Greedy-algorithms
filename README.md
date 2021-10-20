@@ -89,3 +89,18 @@ Problems based on greedy algorithms
 
 ---
 
+### Fractional Knapsack
+
+- Given: Item Weights and values associated to it and the target weight
+- Return: Maximum value possible to pick from given items
+
+#### Greedy Solution
+
+- Find the value to weight ratio and sort it
+- Start taking the items with respect to the sorted order of max value to weight ratios
+- Subtract accordingly if the target weight is lower
+- Return the max value gained
+
+- Time Complexity: O(N*logN) <= `O(N*logN) + O(N)` | Space Complexity: O(1)
+
+---
