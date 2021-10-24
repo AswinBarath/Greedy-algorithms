@@ -1,7 +1,20 @@
-# Greedy-algorithms 
+# Greedy Algorithms 
 
-Problems based on greedy algorithms
+*This Repository provides an overview of different approaches on problems to apply greedy algorithms*
 
+## What is a Greedy Algorithm ?
+
+- An algorithm which makes greedy/optimal choice at every single step in a problem
+- Greedy choice is defined by some rule like 
+	- Select the largest number
+	- Select the smallest number
+	- Select an element that has a certain property
+
+## A greedy example
+
+- *Find n elements that provides the largest sum*
+- Given: **[3,4,-1,2,-3,0]** , **n=4**
+- Greedy choices: 4, 3, 2, 0 (Answer)
 
 ---
 
