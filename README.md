@@ -5,6 +5,15 @@ Problems based on greedy algorithms
 
 ---
 
+## Patterns in Greedy Problem Solving
+
+- Sort the given input in ascending or descending order
+- Use a custom class to create custom objects so that we can group multiple inputs
+- Use a comparator to sort custom objects of inputs
+- Generally, Time Complexity is O(NlogN) due to sorting
+
+---
+
 
 ## Greedy algo problems Rundown
 ### (Approaches to Solve)
