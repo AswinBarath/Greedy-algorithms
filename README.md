@@ -2,6 +2,22 @@
 
 *This Repository provides an overview of different approaches on problems to apply greedy algorithms*
 
+## SDE Sheet problems on Greedy Algorithms
+
+[Sheet Link](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+
+### Day 8
+
+| Completion Status | Problems on Arrays | Explanation | Solution |
+| --- | --- | --- | --- |
+| ✅ | [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1#) | [Brute, Better & Optimal Approaches](#N-meetings-In-One-Room) | [Java Soultion](./src/sde_sheet/NmeetingsInOneRoom.java) |
+| ✅ | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#) | [Brute, Better & Optimal Approaches](#Minimum-Platforms) | [Java Soultion](./src/sde_sheet/MinimumPlatforms.java) |
+| ✅ | [Job Sequencing Problem](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#) | [Brute, Better & Optimal Approaches](#Job-Sequencing-Problem) | [Java Soultion](./src/sde_sheet/JobSequencing.java) |
+| ✅ | [Fractional Knapsack](https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1#) | [Brute, Better & Optimal Approaches](#Fractional-Knapsack) | [Java Soultion](./src/sde_sheet/FractionalKnapsack.java) |
+| ✅ | [Greedy Algorithm to find Minimum number of Coins](https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/) | [Brute, Better & Optimal Approaches](#Minimum-Coins) | [Java Soultion](./src/sde_sheet/MinimumCoins.java) |
+
+---
+
 ## What is a Greedy Algorithm ?
 
 - An algorithm which makes greedy/optimal choice at every single step in a problem
