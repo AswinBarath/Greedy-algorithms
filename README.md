@@ -8,7 +8,7 @@
 
 ### Day 8
 
-| Completion Status | Problems on Arrays | Explanation | Solution |
+| Completion Status | Problems on Greedy Algorithms | Explanation | Solution |
 | --- | --- | --- | --- |
 | ✅ | [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1#) | [Brute, Better & Optimal Approaches](#N-meetings-In-One-Room) | [Java Soultion](./src/sde_sheet/NmeetingsInOneRoom.java) |
 | ✅ | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#) | [Brute, Better & Optimal Approaches](#Minimum-Platforms) | [Java Soultion](./src/sde_sheet/MinimumPlatforms.java) |
